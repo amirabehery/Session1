@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid green;
+        }
+
+        table {
+            width: 70%;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+        <!-- <caption>Registration Form</caption> -->
+        <tr>
+            <td colspan="2" style="text-align: center;">Registration Form</td>
+            <!-- <td></td> -->
+        </tr>
+        <tr>
+            <td>First Name</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>User Name</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Track</td>
+            <td>
+                <select>
+                    <option>OS</option>
+                    <option>Andriod</option>
+                    <option>Apple</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>
+                <input type="radio" name="gender" value="female"> Female
+                <br>
+                <input type="radio" name="gender" value="male"> Male
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2">
+                Mobile Number
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>Description</td>
+            <td><textarea cols="100" rows="5" placeholder="write description here"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button>Submit</button>
+                <button>Reset</button>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <form method="get" action="">
+        <label>Email</label>
+        <br>
+        <input type="email" name="email" required placeholder="Enter your email">
+        <br>
+        <label>Password</label>
+        <br>
+        <input type="password" name="password">
+        <br>
+        <label>Language</label>
+        <br>
+        <select name="lang">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JS</option>
+        </select>
+        <br>
+        <input type="radio" name="gender" id="x">
+        <label for="x">Male</label>
+        <br>
+        <input type="radio" name="gender" id="y">
+        <label for="y">Female</label>
+        <br>
+        <input type="checkbox" name="car1" id="c1" value="c1">
+        <label for="c1">BMW</label>
+        <br>
+        <input type="checkbox" name="car2" id="c2" value="c2">
+        <label for="c2">CAR2</label>
+        <br>
+        <input type="checkbox" name="Car3" id="c3" value="c3">
+        <label for="c3">Car3</label>
+        <br>
+        <input type="file">
+        <br>
+        <input type="submit" value="Login">
+    </form>
+</body>
+
+</html>
